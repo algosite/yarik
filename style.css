@@ -8,7 +8,7 @@ header{
 
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 p {
@@ -26,11 +26,42 @@ header img{
 }
 
 h1 img {
-    width: 150px;
-    height: 150px;
+    width: 70px;
+    height: 70px;
 }
 
 p img {
     width: 100px;
     height: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-size: 40px;
+    color: orangered;
+    text-align: center;
+}
+
+h2 {
+    font-size: 60px;
+    color: indianred;
+}
+
+li {
+    font-size: 30px;
+}
+
+.red {
+    color: red;
+}
+
+.darkblue {
+    color: darkblue;
+}
+
+.lightgreen {
+    color: lightgreen;
 }
