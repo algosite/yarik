@@ -30,12 +30,7 @@ h1 img {
     height: 70px;
 }
 
-p img {
-    width: 100px;
-    height: 100px;
-}
-
-img {
+.main_picture {
     margin-left: 25%;
     width: 50%;
 }
@@ -79,11 +74,44 @@ nav {
     display: flex;
     justify-content: flex-end;
     justify-content: space-between;
+    justify-content: space-around;
 }
 
 nav a {
     text-decoration: none;
     color: red;
-    padding-top: 30px;
+    margin: 10px;
+    padding: 5px;
     font-size: 30px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    background-color: yellow;
 }
+
+nav a:hover {
+    font-size: 35px;
+    color: darkgreen;
+    background-color: white;
+}
+
+div {
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+div img {
+    width: 30%;
+    height: 350px;
+    border: 10px dashed cyan;
+    border-radius: 30px;
+    opacity: 0.5;
+}
+
+div img:hover {
+    opacity: 1;
+    width: 33%;
+    height: 400px;
+}
+
